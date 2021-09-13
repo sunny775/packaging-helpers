@@ -1,0 +1,3 @@
+Hi pals,
+I wrote custom rules for the first time, and I'm loving the learning :)
+I had to make the build cleaner, as I was formerly cleaning out data directory ( whereas not everything in data/ was generated during build: some files existed which were only modified at build, while a lot other new files were added)

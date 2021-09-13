@@ -1,0 +1,32 @@
+packaging/@zkochan/cmd-shim/node-zkochan-cmd-shim
+
+
+
+
+##############################################################################
+# PACKAGE BUILD RELATED (additionally produce _source.changes)
+##############################################################################
+# -d
+$distribution = 'unstable';
+# -A
+$build_arch_all = 1;
+# -s
+$build_source = 1;
+# --source-only-changes (applicable for dput. irrelevant for dgit push-source).
+$source_only_changes = 1;
+# -v
+$verbose = 1;
+# parallel build
+$ENV{'DEB_BUILD_OPTIONS'} = 'parallel=5';
+##############################################################################
+# POST-BUILD RELATED (turn off functionality by setting variables to 0)
+##############################################################################
+$run_lintian = 1;
+$lintian_opts = ['-i', '-I'];
+$run_autopkgtest = 1;
+$autopkgtest_root_args = '';
+$autopkgtest_opts = [ '--', 'schroot', '%r-%a-sbuild' ];
+
+$apt_update = 1;
+$apt_distupgrade = 1;
+

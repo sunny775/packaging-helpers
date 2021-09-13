@@ -1,0 +1,33 @@
+Subject: ITP: node-typanion -- Static and runtime type assertion library with no dependencies
+Package: wnpp
+X-Debbugs-Cc: debian-devel@lists.debian.org
+Owner: Sunday Nkwuda <scletus40@yahoo.com>
+X-Debbugs-Cc: scletus40@yahoo.com
+Severity: wishlist
+
+* Package name    : node-typanion
+  Version         : 3.3.1
+  Upstream Author : Maël Nison <nison.mael@gmail.com>
+* URL             : https://mael.dev/typanion/
+* License         : MIT
+  Programming Lang: Javascript                      
+  Description     : Static and runtime type assertion library with no dependencies
+
+  Typanion provides strong type inference; if your validator functions pass,
+  TypeScript will refine values accordingly.
+
+  Despite being very small, Typanion supports error messages, coercions, and
+  various utilities outside of pure JSON validation.
+
+  Typanion uses a functional approach that lends itself very well to being
+  optimized away by most bundlers.
+
+  This pacakge is needed for packaging yarn2 for Debian
+
+tslib
+@types/mocha
+typescript
+@rollup/plugin-typescript
+@types/chai
+ts-node
+

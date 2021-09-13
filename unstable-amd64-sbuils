@@ -1,0 +1,11 @@
+[unstable-amd64-sbuild]
+description=Debian unstable/amd64 autobuilder
+groups=root,sbuild
+root-groups=root,sbuild
+profile=sbuild
+type=directory
+directory=/srv/chroot/unstable-amd64-sbuild
+union-type=overlay
+aliases=UNRELEASED,sid
+command-prefix=eatmydata
+union-overlay-directory=/dev/shm

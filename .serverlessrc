@@ -1,0 +1,29 @@
+{
+  "userId": "CtFckVpkRXvcGBZLrw",
+  "frameworkId": "5c0562e0-fed8-11eb-b038-3f520d8d1482",
+  "trackingDisabled": false,
+  "enterpriseDisabled": false,
+  "meta": {
+    "created_at": 1629149078,
+    "updated_at": 1630832159
+  },
+  "users": {
+    "CtFckVpkRXvcGBZLrw": {
+      "userId": "CtFckVpkRXvcGBZLrw",
+      "name": "Nkwuda Sunday Cletus",
+      "email": "scletus40@yahoo.com",
+      "username": "sonnie",
+      "dashboard": {
+        "refreshToken": "9NeQ0SCbnfqwI41xrnlL4_V_SKvnCo2cvn89cCtWVGP3u",
+        "accessToken": "_Hv30O1DE33q_GeLokFpWfnJiopi2ya6",
+        "idToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik56azVNREl5TVRnNFJqWTBORGswT0VJM1JrRXpORGN4UmtVMU1FWXdNemczT1VKQlFqRTBNZyJ9.eyJuaWNrbmFtZSI6InN1bm55Nzc1IiwibmFtZSI6Ik5rd3VkYSBTdW5kYXkgQ2xldHVzIiwicGljdHVyZSI6Imh0dHBzOi8vYXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS80OTQwOTQ5Nz92PTQiLCJ1cGRhdGVkX2F0IjoiMjAyMS0wOC0xNlQyMDo1MDoxOC40ODhaIiwiZW1haWwiOiJzY2xldHVzNDBAeWFob28uY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImlzcyI6Imh0dHBzOi8vc2VydmVybGVzc2luYy5hdXRoMC5jb20vIiwic3ViIjoiZ2l0aHVifDQ5NDA5NDk3IiwiYXVkIjoiWUFIT0c4cGFwYjF0a3JMdHROVm9WT1NzNFlMT2pyTmoiLCJpYXQiOjE2MzA4MzIxNTgsImV4cCI6MTYzMTY5NjE1OH0.QhCXaOrLziGO1D7aJdCf_zQVSvHILA2-ZHkqfaGFGuLUgDyH9dT0RJoSTB1C3V4INX3lYwVf47LE3iaTvcaCZLsZNbX9BccXcYhs_uqtpYrhV7gODPM-SNp6LcQwNHWtEScCqfUTFcQ5-2OhG_d8IT-4TLlDxvxLnUG1WjkGprLnTrfgtDZUQLxjaNtxaMLjhKDsb-7VMzZXt9eGkN0E8Nhx96gCg3BH4-ZaugzNlqOGdfXHoxAiZ8imUKR7DooTNjPwuPhYw9sMjelIo--INvHC0BxkXxTwuCMt4E2RVIJh2L4My3wgLm8uq1intVd_Gn9eMnLBhFEL6ivJr7l3YQ",
+        "expiresAt": 86400,
+        "username": "sonnie",
+        "accessKeys": {
+          "sonnie": "AKhNe63fgqodKKj10sa0A2x8i6pYurHWwpB2lYJvVZfFH"
+        },
+        "defaultOrgName": "sonnie"
+      }
+    }
+  }
+}

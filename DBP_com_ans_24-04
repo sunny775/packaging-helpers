@@ -1,0 +1,26 @@
+Those who completed lintian and sbuild can push your changes to salsa. 1. Create account in salsa.debian.org and login 2. Fork the project to your account (there will be a fork button in the repo page) 3. change git remote origin to your fork. git remote remove origin; git remote add origin 4. git push -u --all --follow-tags
+Can someone add this to wiki ?
+
+If it is lintian clean, you can run dch -r -D experimental
+
+//build --no-clean-source;
+Run debclean and try again
+ or git clean -fdx 
+ 
+ 
+ You have to use gbp import-dsc --pristine-tar
+ 
+ And please commit only files you added or modified (don't do git add . or git add debian or git commit -a until you are really confident about git)
+ :: There will be lots of temporary files created by dpkg-buildpackage which we don't want to commit
+ 
+ 
+ 
+ Saakshi Jain
+olatunji ajayi: just out of curiosity, in yesterday call you were facing some issues and updating d/watch. Could you please share that.
+Though I will put it in the wiki, I'll give you a summary.
+
+I had to change the content of my debian/watch file to pull from the package's git repository instead of the debian-salsa link in the old debian/watch file.
+I had to do this before running uscan --verbose, so that the command would pull the right files from upstream, because the old link in the old debian/watch wasn't pulling the right .tar.gz file, and my src and test directories were miraculously disappearing after running the import orig command.
+Then, because I am running a VirtualBox on my windows 10 machine and I haven't figured out how to seamlessly copy and paste from my host to my VirtualBox and vice-versa, I have to use my element app which I installed in the two environments to copy and paste my new upstream download link, which was meant to be in my debian/watch.
+But, unknown to me, element automatically strips backslashes off texts, leaving my link incorrect, and since uscan uses regex (or simple pattern recognition algorithm) to decipher what link to download the required files from, it kept failing and wasn't downloading the right files.
+I meant Github when I said, git repository
